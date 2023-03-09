@@ -1,0 +1,12 @@
+.cabeçalho
+{
+    background-color: blueviolet;
+    color: aqua;
+}
+.imagem{
+   width: 20%;
+}
+.lista{
+    display: inline-block;
+    margin: 0 16px;
+}
