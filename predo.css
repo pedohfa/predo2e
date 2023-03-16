@@ -1,10 +1,21 @@
+
+
 .cabeçalho
 {
     background-color: blueviolet;
-    color: aqua;
+    
 }
 .imagem{
    width: 20%;
+}
+p {
+    font-size: 30px;
+}
+.paragrafo1 {
+ font-size: 30px;
+}
+.paragrafos {
+    font-size: 16px;
 }
 .lista{
     display: inline-block;
