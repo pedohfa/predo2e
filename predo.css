@@ -1,21 +1,18 @@
-.cabeçalho
-{
-    background-color: cornflowerblue;
-    
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --amarelo:#FECD2F;
+    --roxo:#800080;
+    --fonte-principal: "Poppins";
+
 }
-.imagem{
-   width: 20%;
-}
-p {
-    font-size: 30px;
-}
-.paragrafo1 {
- font-size: 30px;
-}
-.paragrafos {
+
+body{
+    background-color:var(--cor-de-fundo);
+    font-family: var(--fonte-principal) ;
     font-size: 16px;
-}
-.lista{
-    display: inline-block;
-    margin: 0 16px;
+    font-weight:400;
 }
